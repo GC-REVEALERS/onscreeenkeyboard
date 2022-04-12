@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    color: red;
+    overflow: hidden;
+}
+.t{
+    position: absolute;
+    top: 20px;
+}
+.t a{
+    background-color: black;
+    color: red;
+    font-size: 40px;
+    border-width: 0px;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 13px;
+    margin-left: 30px;
+    margin-top: 16px;
+    text-decoration: none;
+    outline: red solid 1px;
+    transition-duration: 600ms;
+}
+.t a:hover{
+    background-color: brown;
+    color: black;
+    transform: scale(2);
+}
+.new_additions{
+    position: absolute;
+    margin-left: 15px;
+    top: 110px;
+}
+.new_additions a{
+    display: block;
+    background-color: black;
+    color: red;
+    font-size: 40px;
+    border-width: 0px;
+    padding-right: 200px;
+    padding-left: 100px;
+    padding-top: 3px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 40px;
+    outline: red solid 1px;
+    transition-duration: 600ms;
+}
+.new_additions a:hover{
+    background-color: brown;
+    color: black;
+    transform: scale(1.1);
+}
+.background_change{
+    display: flex;
+    justify-content: right;
+    margin-right: 150px;
+}
+
+.background_change a{
+    display: block;
+    background-color: black;
+    color: red;
+    font-size: 40px;
+    border-width: 0px;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 16px;
+    outline: red solid 1px;
+    transition-duration: 600ms;
+}
+.background_change a:hover{
+    background-color: brown;
+    color: black;
+    transform: scale(1.1);
+}
+.backgroundplay{
+    position: relative;
+    height: 100vh;
+    width: 150vw;
+    top: 200px;
+    left: -100px;
+    background-color: red;
+    z-index: -1;
+    opacity: 0.5;
+    transform: rotate(-28deg);
+}
+.backgroundplay:hover{
+    background-color: black;
+}
+.all_buttons{
+    display: flex;
+    position: relative;
+    top: 650px;
+    left: 550px;
+}
+.all_buttons a{
+    background-color: transparent;
+    color: red;
+    font-size: 20px;
+    border-width: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 16px;
+    transition-duration: 600ms;
+}
+.all_buttons a:hover{
+    color: black;
+    transform: scale(1.5);
+}
+
+.oneb{
+    height: 60px;
+    width: 60px;
+}
+.secondb{
+        height: 60px;
+    width: 60px;    
+}
+.thirdb{
+        height: 60px;
+    width: 60px;
+}
+.fourb{
+        height: 60px;
+    width: 60px;
+
+}

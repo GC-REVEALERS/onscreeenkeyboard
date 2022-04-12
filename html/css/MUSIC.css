@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    color: red;
+    overflow: hidden;
+}
+body a{
+    color: red;
+    text-decoration: none;
+}
+.searchbar{
+    display: flex;
+    justify-content: end;
+    margin-top: -42px;
+    margin-right: 350px;
+}
+.findmusic{
+    font-size: x-large;
+    text-align: center;
+    background-color: black;
+    color: brown;
+    border-width: 0px;
+    height: 5vh;
+    width: 15vw;
+    border-radius: 10px;
+}
+.player_name span{
+    display: block;
+    z-index: -1;
+    text-align: left;
+}
+.gc{
+    position: absolute;
+    top: -50px;
+    color: black;
+    font-size: 530px;
+}
+.mp{
+    position: absolute;
+    font-size: 140px;
+    background: linear-gradient(black 45%,red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    top: 320px;
+    transform: rotate(-26deg);
+    letter-spacing: 70px;
+}
+.top{
+    display: flex;
+}
+.top_back{
+    position: absolute;
+    top: -500px;
+    left: -300px;
+    z-index: -1;
+    background-color: red;
+    opacity: 0.3;
+    width: 115vw;
+    height: 105vh;
+    transform: rotate(-26deg);
+}
+.top a{
+    position: relative;
+    background-color: black;
+    color: red;
+    font-size: 25px;
+    border-width: 0px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 10px;
+    margin-left: 22px;
+    margin-top: 16px;
+    outline: red solid 1px;
+    transition-duration: 600ms;
+}
+.top a:hover{
+    background-color: brown;
+    color: black;
+    transform: scale(1.1);
+}
+.options{
+    display: flex;
+    justify-content: right;
+}
+.more_options{
+    position: absolute;
+    top: 0px;
+    right: 140px;
+}
+.more_options:hover{
+    display: block;
+    transform: scale(1.2);
+}
+.under_options{
+    position: relative;
+    display: none;
+    top: 20px;
+    right: 30px;
+    z-index: 12;
+}
+.options:hover .under_options{
+    display: block;
+}
+.options a{
+    display: block;
+    background-color: black;
+    color: red;
+    font-size: 25px;
+    border-width: 0px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 10px;
+    margin-left: 8px;
+    margin-top: 22px;
+    outline: red solid 1px;
+    transition-duration: 600ms;
+    overflow: hidden;
+}
+.options a:hover{
+    background-color: brown;
+    color: black;
+    transform: scale(1.2);
+}
